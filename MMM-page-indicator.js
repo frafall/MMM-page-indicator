@@ -52,6 +52,8 @@ Module.register('MMM-page-indicator', {
           circle.className += ' fa-circle';
         }
       }
+
+	  circle.className += ` indicator-page${i}`;
       wrapper.appendChild(circle);
 
       const self = this;
